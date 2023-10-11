@@ -1,0 +1,110 @@
+/* Runner and pronouns panel. */
+.runner-container {
+	width: 705px;
+	height: 75px;
+	line-height: 75px;
+	-webkit-text-stroke: 1.5px #22252a;
+	
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+/* Runner name dynamic text. */
+.runner-name {
+	/* max-width: 465px; */
+	font-size: 26pt;
+	margin-right: 5px;
+}
+
+.pronouns {
+	font-size: 22pt;
+}
+
+.finalTime {
+	font-size: 22pt;
+	padding-right: 5px;
+}
+
+/* Player 1 info position. */
+#runner-container1 {
+	left: 5px;
+	top: 408px;
+}
+
+/* Player 2 info position. */
+#runner-container2 {
+	left: 5px;
+	top: 596px;
+}
+
+/* Player 3 info position. */
+#runner-container3 {
+	left: 1200px;
+	top: 408px;
+}
+
+/* Player 4 info position. */
+#runner-container4 {
+	left: 1200px;
+	top: 596px;
+}
+
+/* Commentator name and pronouns panel. */
+.comms-container {
+	position: absolute;
+	display: flex;
+	color: #FFFFFF;
+	font-size: 24pt;
+	width: 430px;
+	height: 50px;
+	line-height: 50px;
+	-webkit-text-stroke: 1px #22252a;
+	
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.comms-name {
+	margin-right: 5px;
+}
+
+.comms-pronouns {
+	font-size: 18pt;
+}
+
+/* Comms 1 info position. */
+#comms-container1 {
+	left: 740px;
+	top: 715px;
+}
+
+/* Comms 2 info position. */
+#comms-container2 {
+	left: 740px;
+	top: 785px;
+}
+
+/* Comms 3 info position. */
+#comms-container3 {
+	left: 740px;
+	top: 855px;
+}
+
+/* Timer panel. */
+#timer {
+	font-size: 73pt;
+	width: 441px;
+	height: 120px;
+	line-height: 120px;
+	left: 740px;
+	top: 480px;
+}
+
+.runner-game {
+	margin-right: 5px;
+}
+
+.runner-game img {
+	height: 40pt;
+	margin-top: 10px;
+}

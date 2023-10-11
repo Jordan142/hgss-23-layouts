@@ -1,0 +1,81 @@
+/* Runner and pronouns panel. */
+.runner-container {
+	width: 930px;
+	height: 70px;
+	line-height: 70px;
+	-webkit-text-stroke: 2px #22252a;
+	
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+/* Player 1 info position. */
+#runner-container1 {
+	left: 5px;
+	top: 540px;
+}
+
+/* Player 2 info position. */
+#runner-container2 {
+	left: 966px;
+	top: 540px;
+}
+
+/* Commentator name and pronouns panel. */
+.comms-container {
+	position: absolute;
+	display: flex;
+	color: #FFFFFF;
+	font-size: 24pt;
+	width: 438px;
+	height: 70px;
+	line-height: 70px;
+	-webkit-text-stroke: 1px #22252a;
+	
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.comms-pronouns {
+	font-size: 20pt;
+}
+
+/* Comms 1 info position. */
+#comms-container1 {
+	left: 1450px;
+	top: 686px;
+}
+
+/* Comms 2 info position. */
+#comms-container2 {
+	left: 1450px;
+	top: 787px;
+}
+
+/* Comms 3 info position. */
+#comms-container3 {
+	left: 1450px;
+	top: 887px;
+}
+
+#runner-name1, #runner-name2 {
+	font-size: 36pt;
+}
+
+#pronouns1, #pronouns2 {
+	font-size: 30pt;
+}
+
+#finalTime1, #finalTime2 {
+	font-size: 30pt;
+}
+
+/* Timer panel. */
+#timer {
+	font-size: 73pt;
+	width: 448px;
+	height: 140px;
+	line-height: 140px;
+	left: 981px;
+	top: 817px;
+}

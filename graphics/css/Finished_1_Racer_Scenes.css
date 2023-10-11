@@ -1,0 +1,40 @@
+/* Runner and pronouns panel. */
+.runner-container {
+	width: 685px;
+	height: 70px;
+	line-height: 70px;
+	-webkit-text-stroke: 1.3px #22252a;
+	
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+/* Player 1 info position. */
+.runner-container {
+	left: 5px;
+	top: 5px;
+}
+
+.runner-name {
+	font-size: 24pt;
+	min-width: 30%;
+	max-width: 75%;
+}
+
+.pronouns {
+	font-size: 22pt;
+}
+
+.finalTime {
+	font-size: 22pt;
+	padding-right: 5px;
+}
+
+.medals {
+	margin-right: 4px;
+}
+
+.runner-game img {
+	height: 40pt;
+	margin-top: 10px;
+}

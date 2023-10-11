@@ -1,0 +1,143 @@
+/* On deck info container. */
+.on-deck-info-container {
+	font-family: 'Comic Sans Bold';
+	width: 1172px;
+	height: 120px;
+	line-height: 120px;
+	position: absolute;
+	color: black;
+	
+	padding-left: 5px;
+	padding-right: 5px;
+	
+}
+
+/* On deck info panel 1. */
+#on-deck-info-container1 {
+	top: 167px;
+	left: 442px;
+}
+
+/* On deck info panel 2. */
+#on-deck-info-container2 {
+	top: 422px;
+	left: 442px;
+}
+
+/* On deck info panel 3. */
+#on-deck-info-container3 {
+	top: 677px;
+	left: 442px;
+}
+
+/* Info panel options. Don't change unless you know what you're doing! */
+.info {
+	/* margin-top: 3px; */
+	font-size: 80px;
+	font-stretch: semi-condensed;
+	float: left;
+	vertical-align: top;
+	flex: 1;
+}
+
+.tech-info-container {
+	position: absolute;
+	display: inline-block;
+	height: 61px;
+	line-height: 61px;
+	font-stretch: normal;
+	font-size: 35pt;
+	width: 1060px;
+
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+/* On deck info panel 1. */
+#tech-info-container1 {
+	top: 301px;
+	left: 537px;
+}
+
+/* On deck info panel 2. */
+#tech-info-container2 {
+	top: 556px;
+	left: 537px;
+}
+
+/* On deck info panel 3. */
+#tech-info-container3 {
+	top: 811px;
+	left: 537px;
+}
+
+.tech-info-label {
+	display: inline-block;
+	vertical-align: bottom;
+}
+
+.tech-info {
+	display: inline-block;
+	font-stretch: normal;
+	margin-top: 6px;
+}
+
+.tech-info-label img {
+	height: 35pt;
+	width: 100%;
+	margin-top: 30px;
+}
+
+.on-deck-channel {
+	display: inline-block;
+	font-stretch: normal;
+	width: 445px;
+	padding-right: 5px;
+	margin-right: 151px;
+}
+
+.on-deck-start {
+	display: inline-block;
+	font-stretch: normal;
+}
+
+/* Commentator name and pronouns panel. */
+.comms-container {
+	position: absolute;
+	display: flex;
+	color: #000000;
+	font-size: 24pt;
+	width: 361px;
+	height: 50px;
+	line-height: 50px;
+	
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.comms-name {
+	width: 240px;
+}
+
+.comms-pronouns {
+	width: 116px;
+	font-size: 20pt;
+}
+
+/* Comms 1 info position. */
+#comms-container1 {
+	left: 70px;
+	top: 993px;
+}
+
+/* Comms 2 info position. */
+#comms-container2 {
+	left: 560px;
+	top: 993px;
+}
+
+/* Comms 3 info position. */
+#comms-container3 {
+	left: 1050px;
+	top: 993px;
+}

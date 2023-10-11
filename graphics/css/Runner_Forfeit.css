@@ -1,0 +1,24 @@
+/* Runner and pronouns panel. */
+.runner-container {
+	left: 5px;
+	top: 5px;
+	width: 930px;
+	height: 70px;
+	line-height: 70px;
+	-webkit-text-stroke: 2px #22252a;
+	
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.runner-name {
+	font-size: 36pt;
+}
+
+.pronouns {
+	font-size: 30pt;
+}
+
+.finalTime {
+	font-size: 30pt;
+}

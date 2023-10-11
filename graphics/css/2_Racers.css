@@ -1,0 +1,118 @@
+/* Runner and pronouns panel. */
+.runner-container {
+	width: 538px;
+    height: 51px;
+    line-height: 51px;
+    padding-right: 5px;
+}
+
+/* Container 1 info position. */
+#runner-container1 {
+	left: 387px;
+	top: 10px;
+}
+
+/* Container 2 info position. */
+#runner-container2 {
+	left: 990px;
+	top: 10px;
+}
+
+/* Runner name dynamic text. */
+.runner-container > .runner-name {
+	font-size: 32pt;
+	padding-left: 5px;
+	width: 200px;
+}
+
+.runner-container > .finalTime {
+	width: 70px;
+	font-size: 16pt;
+}
+
+.runner-container > .pronouns {
+	font-size: 26pt;
+	width: 108px;
+	float: right;
+}
+
+.finished-runner-container {
+	width: 567px;
+    height: 51px;
+    line-height: 51px;
+    padding-right: 5px;
+}
+
+/* Finished Runner name dynamic text. */
+.finished-runner-container > .runner-name {
+	font-size: 32pt;
+	padding-left: 5px;
+	width: 300px;
+}
+
+.finished-runner-container > .finalTime {
+	width: 100px;
+	font-size: 22pt;
+}
+
+.finished-runner-container > .pronouns {
+	font-size: 26pt;
+	width: 120px;
+	float: right;
+}
+
+#finished-runner-container1 {
+	left: 70px;
+    top: 911px;
+}
+
+/* Commentator name and pronouns panel. */
+.comms-container {
+	position: absolute;
+	display: flex;
+	color: #000000;
+	font-size: 24pt;
+	width: 361px;
+	height: 50px;
+	line-height: 50px;
+	
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.comms-name {
+	width: 240px;
+}
+
+.comms-pronouns {
+	width: 116px;
+	font-size: 20pt;
+}
+
+/* Comms 1 info position. */
+#comms-container1 {
+	left: 70px;
+	top: 993px;
+}
+
+/* Comms 2 info position. */
+#comms-container2 {
+	left: 560px;
+	top: 993px;
+}
+
+/* Comms 3 info position. */
+#comms-container3 {
+	left: 1050px;
+	top: 993px;
+}
+
+/* Timer panel. */
+#timer {
+	font-size: 40pt;
+    width: 326px;
+    height: 50px;
+    line-height: 50px;
+    left: 1583px;
+    top: 929px;
+}
