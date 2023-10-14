@@ -7,8 +7,8 @@ $(() => {
 	function loadFromSpeedControl() {
 		const speedcontrolBundle = 'nodecg-speedcontrol';
 
-		let gameTitle = $('#game-name');
-		let gameCategory = $('#category');
+		// let gameTitle = $('#game-name');
+		// let gameCategory = $('#category');
 		let gameSystem = $('#platform');
 		let gameYear = $('#year');
 		let gameEstimate = $('#estimate');
@@ -26,8 +26,8 @@ $(() => {
 			gameEstimate.html(runData.estimate);
 			let customData = runData.customData;
 
-			fadeHtml('#game-name', runData.game.toUpperCase(), true);
-			fadeHtml('#category', runData.category, true);
+			// fadeHtml('#game-name', runData.game.toUpperCase(), true); // Game name not required for tournament layouts
+			// fadeHtml('#category', runData.category, true); // Category name not required for tournament layouts
 
 			$('.runner-name').add('.pronouns').text('');
 			$('.runner-details').data('teamID', '');
