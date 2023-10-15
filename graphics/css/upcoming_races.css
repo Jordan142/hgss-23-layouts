@@ -99,6 +99,8 @@
 .on-deck-start {
 	display: inline-block;
 	font-stretch: normal;
+	width: 439px;
+	padding-right: 5px;
 }
 
 /* Commentator name and pronouns panel. */
