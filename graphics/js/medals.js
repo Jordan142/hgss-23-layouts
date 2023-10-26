@@ -56,7 +56,7 @@ $(() => {
 						completedID.push(team.id);
 						setMedal();
 					}
-					if (runData.teams.length > 1 && newVal.teamFinishTimes[team.id].state === 'forfeit' && !completedID.includes(team.id)) {
+					if (runData.teams.length > 1 && newVal.teamFinishTimes[team.id].state === 'forfeit' && !forfeitID.includes(team.id)) {
 						forfeitID.push(team.id);
 						setForfeit();
 					}
