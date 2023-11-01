@@ -40,6 +40,10 @@
 	flex: 1;
 }
 
+.info span {
+	white-space:nowrap;
+}
+
 .tech-info-container {
 	position: absolute;
 	display: inline-block;
@@ -96,11 +100,19 @@
 	margin-right: 151px;
 }
 
+.on-deck-channel span {
+	white-space:nowrap;
+}
+
 .on-deck-start {
 	display: inline-block;
 	font-stretch: normal;
 	width: 439px;
 	padding-right: 5px;
+}
+
+.on-deck-start span {
+	white-space:nowrap;
 }
 
 /* Commentator name and pronouns panel. */
