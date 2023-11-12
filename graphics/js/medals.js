@@ -50,7 +50,7 @@ $(() => {
 		i = 0;
 		let timer = nodecg.Replicant('timer', speedcontrolBundle);
 		timer.on('change', (newVal, oldVal) => {
-			for (let team of runData.teams) {
+			for (let [index, team] of runData.teams.entries()) {
 				try {
 					if (runData.teams.length > 1 && newVal.teamFinishTimes[team.id].state === 'completed' && !completedID.includes(team.id)) {
 						completedID.push(team.id);
@@ -66,6 +66,12 @@ $(() => {
 				catch {
 					if (completedID.includes(team.id) || forfeitID.includes(team.id))
 						removeMedal(team.id);
+
+					// If we have a finished runner on the layout but the runner is not finished/forfeited, we set the timer next to it.
+					// This can be helpful during tech issues, so people know the runner is still going even if their feed is down.
+					if ($('.finished-runner-container #runner-name' + (index + 1)).length) {
+						$('#finalTime' + (index + 1)).text(newVal.time);
+					}
 				}
 			}
 		});
